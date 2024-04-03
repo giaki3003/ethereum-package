@@ -42,7 +42,7 @@ def get_config(
     cmd = [
         "spam",
         "--rpc={}".format(el_uri),
-        "--sk={0}".format(prefunded_addresses[3].private_key),
+        "--sk={0}".format(prefunded_addresses[0].private_key),
     ]
 
     if len(tx_spammer_extra_args) > 0:

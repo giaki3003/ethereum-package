@@ -48,12 +48,13 @@ MEV_BOOST_SERVICE_NAME_PREFIX = "mev-boost"
 MIN_VALIDATORS = 64
 
 DEFAULT_ADDITIONAL_SERVICES = [
-    "tx_spammer",
-    "blob_spammer",
     "el_forkmon",
     "beacon_metrics_gazer",
     "dora",
     "prometheus_grafana",
+    "blockscout",
+    "full_beaconchain_explorer",
+    "blobscan",
 ]
 
 ATTR_TO_BE_SKIPPED_AT_ROOT = (

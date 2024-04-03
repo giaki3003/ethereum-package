@@ -61,7 +61,7 @@ def get_config(
                     'echo "sleep is over, starting to send blob transactions"',
                     "/tx-fuzz.bin blobs --rpc={} --sk={}".format(
                         el_uri,
-                        prefunded_addresses[1].private_key,
+                        prefunded_addresses[0].private_key,
                     ),
                 ]
             )

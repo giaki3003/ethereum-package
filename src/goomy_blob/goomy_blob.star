@@ -69,7 +69,7 @@ def get_config(
                     ),
                     'echo "sleep is over, starting to send blob transactions"',
                     "./blob-spammer -p {0} {1}".format(
-                        prefunded_addresses[4].private_key,
+                        prefunded_addresses[0].private_key,
                         " ".join(goomy_cli_args),
                     ),
                 ]
